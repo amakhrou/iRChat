@@ -7,9 +7,6 @@
 </p>
 
 <p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Bettercallous/MiniChat?color=red" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/Bettercallous/MiniChat?color=green" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Bettercallous/MiniChat?color=blue" />
 </p>
 
 ---
@@ -44,11 +41,6 @@ This test project is dedicated to exploring the complex workings of sockets and 
 Internet Relay Chat (IRC) is an Internet application that was developed by Jakko Oikarinen in Finland• Chat is the most convenient immediate way to communicate with others via Internet• There are a number of topics called “channels” through which you can chat with many people all over the world• After joining channel, you can see what other people on this channel type on their keyboards. In that situation, everyone on this channel can see whatever you type on your keyboard. You can also hold individual conversations with someone. Channels get live on different servers around the world. Some servers have only a few channels, while others have many of them.
 
 IRC follows client-server model. It means that both client and server software are required in order to use it. Many IT (Information Technology) clients are available for different kinds of computers, so whether you have a PC, Macintosh, or UNIX work-section, you will be able to use IRC. ~ [***source***](https://www.geeksforgeeks.org/internet-relay-chat-irc/)
-
-<div align="center">
-  <img src="/assets/IRC.png" alt="IRC Image" width="700" height="394" />
-  <p><i>https://www.contus.com/blog/best-chat-and-instant-messaging-protocols/</i></p>
-</div>
 
 ## Why use IRC ? <a name="why"></a>
 IRC stands out for several reasons. Firstly, it's a protocol, not just a software, meaning its basic structure isn't tied to any specific program. This makes it reliable—your IRC channel won't disappear overnight if a particular platform shuts down or becomes restricted. Additionally, IRC is low-key and straightforward. You don't need to share personal details, and it's not cluttered with unnecessary features. While it may lack flashy avatars or intricate profiles, it excels at its core purpose:communication. For those who prefer simplicity and efficiency, the absence of unnecessary bells and whistles is actually a plus.
