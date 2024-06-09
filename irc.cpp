@@ -70,7 +70,6 @@ void Server::processMessage(const std::string& message, int fd)
     else
     {
         std::map<std::string, std::vector<int> >::iterator it;
-        std::vector<int>::iterator it1;
         std::string user_c;
         for (it = nick_fd.begin(); it != nick_fd.end(); ++it)
         {
@@ -324,7 +323,7 @@ void Server::set_fd_users(const std::string &user_name,int fd)
 std::string Server::get_user(int fd)
 {
     std::map<std::string, std::vector<int> >::iterator it;
-    std::vector<int>::iterator it1;
+    // std::vector<int>::iterator it1;
     std::string user_c;
 
     for (it = nick_fd.begin(); it != nick_fd.end(); ++it)
@@ -423,7 +422,7 @@ void Server::mode_o(std::string mode, std::string channel_name_o, std::string ke
     std::map<std::string, std::vector<std::string> >::iterator it;
     int check = if_admin_inchannel(fd, channel_name_o);
     it = channel.find(channel_name_o);
-    std::vector<std::string>::iterator it1;
+    // std::vector<std::string>::iterator it1;
 
     if (mode == "+o")
     {

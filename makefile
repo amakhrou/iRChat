@@ -1,6 +1,6 @@
 NAME = ircserv
 
-CPPFLAGS = c++ -Wall -Wextra -Werror -std=c++98
+CPPFLAGS = c++ -Wall -Wextra -Werror
 
 SRC =   conf/configFile.cpp  main.cpp multuplixing/multuplixing.cpp \
 		parse/parse.cpp Server.cpp irc.cpp

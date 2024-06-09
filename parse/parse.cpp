@@ -100,11 +100,6 @@ int validUser(int fd, server *ser, client *cl, std::string buff, std::vector<cli
         send_message(fd, "Please enter your userName :\r\n");
         return 0;
     }
-    if (tmp[1].empty() || tmp[2].length() != 1 || tmp[3].length() != 1 || tmp[2][0] != '0' || tmp[3][0] != '*'){
-        send_message(fd, "irssi user : Errors in  parametres\n");
-        send_message(fd, "Please enter your userName :\r\n");
-        return 0;
-    }
     for (std::vector<client>::iterator it = mycl.begin(); it != mycl.end(); it++)
     {
         if (tmp[1] == it->name)
