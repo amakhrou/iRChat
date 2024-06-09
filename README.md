@@ -75,6 +75,7 @@ $> ./ircserv <port> <password>
 - `/quote NICK <nickname>`
 - `/quote USER <username> <hostname> <servername> <realname>`
 > Don't stress about USER arguments they don't really matter.
+> Nickname is your identification it shows when you send messages.
 
 > In Irssi, the /quote command is used to send raw IRC commands directly to the IRC server. This allows you to execute IRC commands that are not directly supported by Irssi's built-in commands or to send commands that require special formatting.
 
