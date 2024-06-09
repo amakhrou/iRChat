@@ -155,11 +155,6 @@ When the communication is complete, either the client or the server can initiate
 
 <br>
 
-<div align="center">
-  <img src="/assets/socketworkings.png" alt="IRC Image" width="280" height="354" />
-  <p><i>https://www.ibm.com/docs/en/i/7.3?topic=programming-how-sockets-work</i></p>
-</div>
-
 ---
 
 ## 📖 Resources :  <a name="resources"></a>
